@@ -1,0 +1,129 @@
+html{
+    height:100vh;
+}
+body{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+    position: relative;
+    background: rgb(2,0,36);
+    background: linear-gradient(135deg, #002423 0%, rgb(104, 38, 116) 50%, rgb(130, 174, 165) 100%);
+    height: inherit;
+}
+
+.br-cstm{
+    border-radius: 6px;
+}
+
+.line{
+    border-bottom: 4px black solid;
+}
+.txt-cstm{
+    color: bisque;
+    font-size: medium;
+    font-kerning: auto;
+}
+header{
+    display:flex;
+    text-align: center;
+    text-decoration: wavy;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: x-large;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: blanchedalmond;
+    box-shadow: -2px 8px 4px 2px;
+}
+header label{
+    padding: 1.25rem;
+    font-weight: bold;
+}
+header .img-cnt{
+    width:30px;
+    height: 30px;
+    margin:1.25rem;
+}
+
+header .img-cnt img{
+    width:30px;
+    height:30px;
+}
+
+#buy-content{
+    display:grid;
+    margin:4rem;
+    grid-template-columns: 1fr 1fr;
+    column-gap:2rem;
+    padding:1rem;
+    border-spacing: 1rem;
+    border:4px rgba(0,0,0,0.45) solid;
+    border-radius:8px;
+}
+
+#buy-content .card-top{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+#buy-content .card-bottom{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#buy-content .card-bottom .text-top{
+    text-align: center;
+    text-decoration: wavy;
+    color: rgb(44, 4, 81);
+    text-transform: uppercase;
+    font-size: xx-large;
+    width: 100%;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#buy-content .partners{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#buy-content .partners .partner-info{
+   text-transform: uppercase;
+   padding:2rem 0rem;
+   color:antiquewhite;
+   text-align: center;
+   font-size: large;
+
+}
+#buy-content .partners img{
+    height:20px;
+    width:20px;
+}
+#buy-content .text-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buy-content .text-bottom button{
+    padding:8px;
+    background-color: thistle;
+    border-radius: 4px;
+    font-size: large;
+    font-weight: 600;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    background-color: rgba(186, 39, 147,0.32);
+    color:#faebd7;
+   text-align: center;
+   font-size: small;
+   padding:1rem 0rem;
+}
